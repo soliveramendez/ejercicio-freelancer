@@ -1,0 +1,316 @@
+
+/*estilos generales*/
+ body{
+   margin:0;
+
+ }
+/*sección encabezado Header*/
+ .encabezado{
+   position: relative;
+   background-color:#2c3e50;
+   padding: 30px;
+   font-family: Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;
+   font-weight:bold;
+   text-transform: uppercase;
+   position: fixed;
+   width: 100%;
+   top:0;
+   left: 0;
+   z-index: 2;/*por niveles de cercania de visivilidad trabaja en capas*/
+ }
+
+ a{
+   text-decoration: none;
+   display: block;
+   color:#fff;
+ }
+ /*cambio de color cuando se pasa el mousse*/
+ a:hover{
+   color: #18bc9c;
+ }
+
+ ul{
+   list-style: none;
+   padding-right: 20px;
+   background-color:#2c3e50;
+   font-size:17px;
+   line-height:45px;
+   overflow: hidden;
+   /*border:1px solid white;*/
+   display: inline;
+   float: right;
+ }
+
+ li {
+   width: 100px;
+   text-align: center;
+   float:left;
+   background-color: #2c3e50;
+   /*border: 1px solid green;*/
+
+}
+.containerstard{
+  width: 1200px;
+}
+
+.star{
+  color: white;
+  display: inline-block;
+  margin-left:60px;
+
+}
+
+  /*Primera sección*/
+.primeraseccion{
+  background: #18bc9c;
+  width: 100%;
+  height: 800px;
+  text-align: center;
+  padding-top: 80px;
+  font-size: 35px;
+}
+
+.lineablanca{
+  border:3px solid white;
+  width: 280px;
+}
+.blanca{
+  color:white;
+  background:#18bc9c;
+  padding:5px;
+  position:relative;
+  bottom: 40px;
+}
+
+.img{
+  padding-top: 100px;
+  overflow: hidden;
+
+}
+h1,h2{
+  font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 2em;
+  font-weight: 700;
+  margin:20px;
+  text-transform: uppercase;
+  color:white;
+  text-align: center;
+}
+
+p{
+  color: white;
+  font-family: Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size:28px;
+  text-align: center;
+  margin:0px;
+
+}
+
+h2{
+  margin-top: 70px;
+}
+
+/*sección partafolio*/
+.portfolio{
+  padding-bottom: 70px;
+  overflow: hidden;
+  clear:both;
+  text-align: center;
+  font-size:23px;
+}
+
+.titulo_portfolio{
+  color:#2c3e50;
+  text-align:center;
+}
+
+.lineaazul{
+  border:3px solid #2c3e50;
+  width: 280px;
+}
+
+.azul{
+  color:#2c3e50;
+  padding:5px;
+  background: white;
+  position:relative;
+  bottom: 40px;
+
+}
+
+.foto{
+  width: 25%;
+  height: 25%;
+  padding-left: 30px;
+  padding-top: 30px;
+  box-sizing: border-box;
+}
+.items_portfolio{
+  text-align: center;
+
+}
+
+/*sección about*/
+.about{
+  background-color: #18bc9c;
+  color: white;
+  text-align: center;
+  font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size:23px;
+  padding: 70px;
+  float: left;
+  overflow: hidden;
+  clear:both;
+}
+
+table{
+  justify-content:left;
+  margin:20px;
+
+  line-height: 1.5em;
+  font-family:Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;
+
+}
+h3{
+  font-size: 2em;
+  font-weight: 700;
+  text-align: center;
+
+}
+.download{
+  border: 2px solid white;
+  float: left;
+  padding: 20px;
+  margin-left:490px;
+  border-radius: 5px;
+
+}
+.descarga:hover{
+  color:white;
+  font-size:1.6em;
+
+}
+
+h5{
+  float:right;
+  text-align: center;
+  padding-left: 10px;
+  padding-bottom: 8px;
+  margin:0;
+}
+
+/*sección contacto*/
+.contacto{
+  font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+  color: #2c3e50;
+  overflow: hidden;
+  clear:both;
+  vertical-align: top;
+  line-height: 30px;
+  text-align: center;
+  font-size:23px;
+  padding-top:70px;
+}
+
+.tabla{
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex: initial;
+  flex: initial;
+  width: 200px;
+  min-width: 100px;
+  font-family:Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 23px;
+  color:grey;
+  padding-left: 300px;
+  padding-top:50px;
+}
+
+input{
+  width: 800px;*/afecta a todo el formulario*/
+
+}
+
+.messenger{
+  padding-top: 10px;
+  padding-bottom:50px;
+  padding-left: 0px;
+
+
+}
+#send{
+  background-color:#18bc9c;
+  padding:10px;
+  border:10px;
+  width: 10%;
+  border-radius: 5px;
+  margin-bottom:50px;
+  text-align: center;
+
+}
+/*sección pie de página*/
+.pie_pagina{
+  background-color: #2c3e50;
+  color: white;
+  font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 23px;
+  display: -webkit-flex;
+  display: flex;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 70px;
+  padding-left: 50px;
+  overflow: hidden;
+  clear:both;
+}
+.pie_pagina p{
+  font-size: 20px;
+}
+.location {
+  -webkit-flex: initial;
+  flex: initial;
+  width: 400px;
+  min-width: 200px;
+}
+.web {
+  -webkit-flex: none;
+  flex: none;
+  width: 460px;
+}
+.freelancer {
+  -webkit-flex: initial;
+  flex: initial;
+  width: 400px;
+  min-width: 100px;
+}
+/*sección footer*/
+footer{
+  background-color: #2c3e50;
+  color:white;
+  text-align: center;
+  font-family:Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  padding-bottom: 30px;
+}
+.icono{
+  color:white;
+  width:40px;
+  height: 40px;
+  border-radius:50%;
+  border: 2px solid white;
+  font-size:1.6em;
+}
+.icono.fa{
+  font-size: 20px;
+  line-height: 40px;
+}
+.icono:hover{
+  color: #18bc9c;
+  background-color:white;
+}
+.referencia:hover{
+  text-decoration: underline;
+}
+.referencia{
+  color:#18bc9c;
+}
