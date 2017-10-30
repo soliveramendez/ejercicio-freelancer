@@ -227,7 +227,8 @@ h5{
 }
 
 input{
-  width: 800px;*/afecta a todo el formulario*/
+width: 800px;/*afecta a todo el formulario*/
+border-bottom-color: 2px solid gray;
 
 }
 
